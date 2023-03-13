@@ -97,6 +97,6 @@ tableofaccuracy(j,2)= top2matchcount/numcompared;
 tableofaccuracy(j,3)= top3matchcount/numcompared;
 tableofaccuracy(j,4)= numcompared;
 
-save([wormpath '/neuronID_test.mat'],'mu_r','top3prediction','IDpercent') 
+save([wormpath '/neuronID_results.mat'],'mu_r','top3prediction','IDpercent') 
 end
 
