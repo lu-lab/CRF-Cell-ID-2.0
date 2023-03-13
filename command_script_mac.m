@@ -17,7 +17,7 @@ for j= 1:size(wormlist,1)
 whichworm= wormlist(j,:);
 disp(['worm ' whichworm]);
 
-mainpath= '/Users/hyunjee/Dropbox (GaTech)/Whole-brain codes/CRF_ID 2.0/Images/glr1/'; %specify
+mainpath= '/Users/hyunjee/Dropbox (GaTech)/Whole-brain codes/CRF_ID 2.0/Images/glr1/'; %specify the location of folder containing image data to be annotated
 wormpath= [mainpath 'worm' whichworm]; %specify
 inputImage=read_tif('one',[wormpath '/worm' whichworm 'RFP.tif']);
 greenImage=read_tif('one',[wormpath '/worm' whichworm 'GFP.tif']);
