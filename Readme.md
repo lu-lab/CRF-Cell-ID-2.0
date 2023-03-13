@@ -1,6 +1,19 @@
 # CRF Cell ID 2.0
 
+This is a version two upgrade of the CRF_ID provided in https://github.com/lu-lab/CRF_Cell-ID. The upgrade expands the tool's generalizability to multi-cell images. Please refer to the manuscript for details.
 
-This software/tools were developed for automatically detecting cells in dense brain images, annotating biological identities, visualizing results, and building new atlases using ground-truth annotations. In contrast to popular registration based methods, `CRF_Cell_ID` formulates a structured prediction problem that is solved with second-order Conditional Random Fields model. Thus `CRF_Cell_ID` finds optimal labels for all cells that are most consistent with prior knowledge in terms of maintaining second-order features such as positional relationships. `CRF_Cell_ID` also provides a computationally scalable method for building atlases from thousands of annotated images.
+Please make sure to keep the name of the directory as `CRF_Cell_ID` so that walkthrough instructions can be run without changing any paths.
+### Installing with Git Shell
+```
+git clone https://github.com/shiveshc/CRF_Cell_ID.git
+```
+### Installing online
+Click on `Clone or download` button on top right corner and `Download ZIP`
 
-To learn about details of the method, please read the <a href="https://www.biorxiv.org/content/10.1101/2020.03.10.986356v1">paper</a>.
+### Dependencies
+1. MATLAB 2018b
+2. <a href = "https://www.cs.ubc.ca/~schmidtm/Software/UGM.html">UGM Toolbox</a>
+3. <a href = "https://sites.google.com/site/myronenko/research/cpd">CPD</a> registration (optional, required only for comparisons)
+4. <a href = "https://github.com/Vaa3D">Vaa3D</a> (optional, required only for visualizing ground-truth annotations)
+
+UGM and CPD are provided in the repository so there is no need to download them separately. However please consider citing them.
