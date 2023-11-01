@@ -17,7 +17,7 @@ for j= 1:size(wormlist,1)
 whichworm= wormlist(j,:);
 disp(['worm ' whichworm]);
 
-mainpath= '/Users/hyunjee/Dropbox (GaTech)/Whole-brain codes/CRF_ID 2.0/Images/glr1/'; %specify
+mainpath= '/Users/hyunjee/Dropbox (GaTech)/Whole-brain codes/CRF_ID 2.0/Images/glr1/'; %specify the location of folder containing image data to be annotated
 wormpath= [mainpath 'worm' whichworm]; %specify
 inputImage=read_tif('one',[wormpath '/worm' whichworm 'RFP.tif']);
 greenImage=read_tif('one',[wormpath '/worm' whichworm 'GFP.tif']);
@@ -97,6 +97,6 @@ tableofaccuracy(j,2)= top2matchcount/numcompared;
 tableofaccuracy(j,3)= top3matchcount/numcompared;
 tableofaccuracy(j,4)= numcompared;
 
-save([wormpath '/neuronID_test.mat'],'mu_r','top3prediction','IDpercent') 
+save([wormpath '/neuronID_results.mat'],'mu_r','top3prediction','IDpercent') 
 end
 
