@@ -5,7 +5,7 @@ This is a version two upgrade of the CRF_ID provided in https://github.com/lu-la
 Please make sure to keep the name of the directory as `CRF_Cell_ID` so that walkthrough instructions can be run without changing any paths.
 ### Installing with Git Shell
 ```
-git clone https://github.com/shiveshc/CRF_Cell_ID.git
+git clone https://github.com/lu-lab/CRF-Cell-ID-2.0.git
 ```
 ### Installing online
 Click on `Clone or download` button on top right corner and `Download ZIP`
