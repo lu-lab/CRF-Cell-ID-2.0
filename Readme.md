@@ -1,6 +1,6 @@
 # CRF Cell ID 2.0
 
-This is a version two upgrade of the CRF_ID provided in https://github.com/lu-lab/CRF_Cell-ID. The upgrade expands the tool's generalizability to multi-cell images. Please refer to the manuscript for details.
+This is a version two upgrade of the CRF_ID provided in https://github.com/lu-lab/CRF_Cell-ID. The upgrade expands the tool's generalizability to multi-cell images. Please refer to the manuscript for details: https://doi.org/10.7554/eLife.89050.1.
 
 Please make sure to keep the name of the directory as `CRF_Cell_ID` so that walkthrough instructions can be run without changing any paths.
 ### Installing with Git Shell
